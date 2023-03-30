@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Pourquoi No Scroll Day ?
-  target: ''
-  kind: blank
+  target: "/pourquoi-no-scroll-day/"
+  kind: page
   children: []
 
