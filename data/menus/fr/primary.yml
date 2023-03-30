@@ -1,4 +1,12 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Accueil
+  target: "/"
+  kind: page
+  children: []
+- title: Pourquoi No Scroll Day ?
+  target: "/pourquoi-no-scroll-day/"
+  kind: page
+  children: []
 
