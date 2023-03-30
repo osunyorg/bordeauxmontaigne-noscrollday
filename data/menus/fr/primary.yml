@@ -5,12 +5,12 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Pourquoi No Scroll Day ?
-  target: "/pourquoi-no-scroll-day/"
-  kind: page
-  children: []
 - title: Les offres
   target: "/offres/"
+  kind: page
+  children: []
+- title: Pourquoi No Scroll Day ?
+  target: "/pourquoi-no-scroll-day/"
   kind: page
   children: []
 
