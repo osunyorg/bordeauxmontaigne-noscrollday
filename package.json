@@ -5,6 +5,7 @@
   "author": "noesya",
   "license": "MIT",
   "dependencies": {
+    "hugo-extended": "^0.111.3",
     "osuny-hugo-theme": "./themes/osuny-hugo-theme-aaa"
   },
   "devDependencies": {
