@@ -21,4 +21,8 @@ items:
   target: https://www.tiktok.com/@noscrollday
   kind: url
   children: []
+- title: 'Suivre #NoScrollDay :'
+  target: ''
+  kind: blank
+  children: []
 
