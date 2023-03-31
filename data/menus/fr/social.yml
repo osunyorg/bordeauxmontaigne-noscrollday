@@ -13,4 +13,8 @@ items:
   target: https://www.instagram.com/noscrollday/
   kind: url
   children: []
+- title: Twitter
+  target: https://twitter.com/noscrollday
+  kind: url
+  children: []
 
