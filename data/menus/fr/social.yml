@@ -1,4 +1,8 @@
 ---
 title: Liens sociaux
-items: []
+items:
+- title: L'équpie
+  target: "/equipe/"
+  kind: page
+  children: []
 
