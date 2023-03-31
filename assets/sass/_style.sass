@@ -23,13 +23,39 @@
 .page__home
     .hero
         display: none
-
+@include media-breakpoint-up(desktop)
     .block-call_to_action
         &:nth-child(1)
             background-color: black !important
             padding-top: 5rem !important
-
+            height: 100vh
+            h2
+                text-transform: initial !important
+            .description
+                padding-bottom: 3em
+                p
+                    font-weight: bold
             .call_to_action
                 color: white !important
+                align-items: center !important
 
+@include media-breakpoint-down(desktop)
+    .block-call_to_action
+        &:nth-child(1)
+            background-color: black !important
+            padding-top: 5rem !important
+            height: auto
+            h2
+                text-transform: initial !important
+            .description
+                padding-bottom: 3em
+                p
+                    font-weight: bold
+            .call_to_action
+                color: white !important
+                align-items: center
+                flex-direction: column-reverse
+                
             
+            
+
