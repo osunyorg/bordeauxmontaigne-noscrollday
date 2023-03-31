@@ -5,4 +5,8 @@ items:
   target: "/equipe/"
   kind: page
   children: []
+- title: Instagram
+  target: https://www.instagram.com/noscrollday/
+  kind: url
+  children: []
 
