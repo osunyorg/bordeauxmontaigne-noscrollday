@@ -5,7 +5,7 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Les offres
+- title: Nos propositions
   target: "/nos-propositions/"
   kind: page
   children: []
