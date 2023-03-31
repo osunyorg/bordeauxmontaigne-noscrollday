@@ -1,78 +1,85 @@
 .post-sidebar
-    display: none
+   display: none
+
 
 .block-call_to_action
-    &:nth-child(3)
-        background-color: black !important
-        .call_to_action
-            color: var(--cta-background-color) !important
+   &:nth-child(3)
+       background-color: black !important
+       .call_to_action
+           color: var(--cta-background-color) !important
+
+
+
 
 
 
 .posts__section
-    .hero
-        margin-bottom: 0
-        
-        .content>h1
-            margin-top: 0
+   .hero
+       margin-bottom: 0
+      
+       .content>h1
+           margin-top: 0
+  
 
-
-.posts__page
-    .block-content
-        padding-left: 0 !important
-
-    .block-call_to_action 
-        .container
-            padding-left: 0 !important
 
 .persons--list
-    display: none
+   display: none
+
 
 .page__home
-    .hero
-        display: none
+   .hero
+       display: none
+
 
 .block-organization_chart
-    .block-content
-        padding-left: 0 !important
+   .block-content
+       padding-left: 0 !important
+
 
 .page__home
-    @include media-breakpoint-up(desktop)
-        .block-call_to_action
-            &:nth-child(1)
-                background-color: black !important
-                padding-top: 5rem !important
-                height: 100vh
-                h2
-                    text-transform: initial !important
-                .description
-                    padding-bottom: 3em
-                    p
-                        font-weight: bold
-                .call_to_action
-                    color: white !important
-                    align-items: center !important
+   @include media-breakpoint-up(desktop)
+       .block-call_to_action
+           &:nth-child(1)
+               background-color: black !important
+               padding-top: 5rem !important
+               height: 100vh
+               h2
+                   text-transform: initial !important
+               .description
+                   padding-bottom: 3em
+                   p
+                       font-weight: bold
+               .call_to_action
+                   color: white !important
+                   align-items: center !important
 
-    @include media-breakpoint-down(desktop)
-        .block-call_to_action
-            &:nth-child(1)
-                background-color: black !important
-                padding-top: 5rem !important
-                height: auto
-                h2
-                    text-transform: initial !important
-                .description
-                    padding-bottom: 3em
-                    p
-                        font-weight: bold
-                .call_to_action
-                    color: white !important
-                    align-items: center
-                    flex-direction: column-reverse
-                    
-    .block-call_to_action
-            &:nth-child(3)
-                .description
-                    grid-column: 1/12 !important
+
+   @include media-breakpoint-down(desktop)
+       .block-call_to_action
+           &:nth-child(1)
+               background-color: black !important
+               padding-top: 5rem !important
+               height: auto
+               h2
+                   text-transform: initial !important
+               .description
+                   padding-bottom: 3em
+                   p
+                       font-weight: bold
+               .call_to_action
+                   color: white !important
+                   align-items: center
+                   flex-direction: column-reverse
+
+
                 
-
+   .block-call_to_action
+           &:nth-child(3)
+               h2
+                   text-transform: initial
+                   text-decoration: underline
+                   padding-bottom: 1em
+               p
+                   font-weight: 100
+               .description
+                   grid-column: 1/12 !important
