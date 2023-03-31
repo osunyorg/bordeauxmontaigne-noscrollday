@@ -5,4 +5,24 @@ items:
   target: "/equipe/"
   kind: page
   children: []
+- title: 'Suivre #NoScrollDay :'
+  target: ''
+  kind: blank
+  children: []
+- title: Linkedin
+  target: https://www.linkedin.com/company/noscrollday/
+  kind: url
+  children: []
+- title: Instagram
+  target: https://www.instagram.com/noscrollday/
+  kind: url
+  children: []
+- title: Twitter
+  target: https://twitter.com/noscrollday
+  kind: url
+  children: []
+- title: TikTok
+  target: https://www.tiktok.com/@noscrollday
+  kind: url
+  children: []
 
