@@ -6,3 +6,7 @@ fr:
   languageCode: fr
   languageName: Français
   permalinks:
+    categories: /nos-propositions/:slug/
+    posts: /nos-propositions/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/nos-propositions/
