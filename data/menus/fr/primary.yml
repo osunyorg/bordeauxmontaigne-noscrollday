@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Nos propositions
-  target: "/nos-propositions/"
+  target: "/articles/"
   kind: page
   children: []
 - title: Pourquoi No Scroll Day ?
