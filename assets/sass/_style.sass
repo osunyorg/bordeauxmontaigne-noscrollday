@@ -7,6 +7,10 @@
        background-color: black !important
        .call_to_action
            color: var(--cta-background-color) !important
+   &:nth-child(5)
+       background-color: black !important
+       .call_to_action
+           color: var(--cta-background-color) !important
             
 
 
@@ -91,6 +95,15 @@
                 
    .block-call_to_action
            &:nth-child(3)
+               h2
+                   text-transform: initial
+                   text-decoration: underline
+                   padding-bottom: 1em
+               p
+                   font-weight: 300
+               .description
+                   grid-column: 1/12 !important
+           &:nth-child(5)
                h2
                    text-transform: initial
                    text-decoration: underline
