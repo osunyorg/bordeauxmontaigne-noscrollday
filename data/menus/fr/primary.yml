@@ -5,8 +5,4 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Nos propositions
-  target: "/articles/"
-  kind: page
-  children: []
 
