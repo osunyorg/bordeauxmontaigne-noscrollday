@@ -5,4 +5,8 @@ items:
   target: "/"
   kind: page
   children: []
+- title: C’est quoi NoScrollDay ?
+  target: "/infos-nsd/"
+  kind: page
+  children: []
 
