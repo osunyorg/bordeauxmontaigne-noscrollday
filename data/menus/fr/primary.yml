@@ -9,8 +9,4 @@ items:
   target: "/articles/"
   kind: page
   children: []
-- title: Pourquoi No Scroll Day ?
-  target: "/pourquoi-no-scroll-day/"
-  kind: page
-  children: []
 
