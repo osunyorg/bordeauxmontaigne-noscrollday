@@ -64,12 +64,14 @@
 .hero-custom
    @include media-breakpoint-up(desktop)
     height: 80vh
+    width: 100%
     display: flex
     align-items: center
     justify-content: center
     h1
         text-transform: initial
         font-size: 36px !important
+        white-space: normal
     h2
     p
     span
@@ -107,8 +109,12 @@
 
 
 #block-1
+   @include media-breakpoint-up(desktop)
     padding-bottom: 0em
     margin-top: 140px
+   @include media-breakpoint-down(desktop)
+    padding-bottom: 0em
+    margin-top: 0px
 
 
 .page__home   
