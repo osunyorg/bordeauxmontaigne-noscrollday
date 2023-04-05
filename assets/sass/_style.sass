@@ -58,31 +58,19 @@
 
 .toc-container
     li
-        font-weight: 300;
-
-
-.page__home
-       .block-call_to_action
-           &:nth-child(2)
-               .actions a
-                background-color: white !important
-                color: black
-
-                .call_to_action--without-image div .description
-                    grid-column: 1/12 !important
+        font-weight: 300
 
 
 .hero-custom
    @include media-breakpoint-up(desktop)
-    height: 100vh
+    height: 80vh
     display: flex
     align-items: center
     justify-content: center
     h1
         text-transform: initial
-        font-size: 36px
+        font-size: 36px !important
     h2
-
     p
     span
         color: #78C0E0
@@ -92,6 +80,8 @@
         justify-content: center
     picture img 
         width: 70%
+    .container-custom
+        width: 50%
    @include media-breakpoint-down(desktop)
     height: 100vh
     display: flex
@@ -116,6 +106,21 @@
         width: 100%
 
 
+#block-1
+    padding-bottom: 0em
+    margin-top: 140px
 
-                
-                
+#block-3, #block-4
+    h2
+        font-size: 1.5rem
+        text-transform: initial
+        font-style: italic
+        text-decoration-line: underline
+        font-weight: 300
+    p
+        font-size: 1.375rem
+    .block-content
+        padding: 1rem 4rem 8rem 4rem !important
+
+.nav-accessibility
+    display: none
