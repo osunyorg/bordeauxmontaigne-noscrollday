@@ -13,7 +13,26 @@
            color: var(--cta-background-color) !important
             
 
+.block-chapter
+    &:nth-child(2) 
+        @include media-breakpoint-down(desktop)
+            .chapter
+                flex-direction: row-reverse !important
+            
 
+        @include media-breakpoint-up(desktop)
+            .chapter
+                flex-direction: row-reverse !important
+    
+    &:nth-child(4)
+        @include media-breakpoint-down(desktop)
+            .chapter
+                flex-direction: row-reverse !important
+            
+
+        @include media-breakpoint-up(desktop)
+            .chapter
+                flex-direction: row-reverse !important
 
 
 
