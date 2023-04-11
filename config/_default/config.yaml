@@ -4,6 +4,7 @@ enableRobotsTXT: true
 removePathAccents: true
 
 params:
+  plausible: noscrollday.fr
   posts:
     index:
       show_categories: false
