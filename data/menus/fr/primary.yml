@@ -9,7 +9,7 @@ items:
   target: "/infos-nsd/"
   kind: page
   children: []
-- title: Pourquoi NoScrollDay ?
+- title: S'informer
   target: "/sensibilisation/"
   kind: page
   children: []
