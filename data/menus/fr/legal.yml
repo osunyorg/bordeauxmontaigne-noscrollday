@@ -9,4 +9,8 @@ items:
   target: "/politique-de-confidentialite/"
   kind: page
   children: []
+- title: Presse
+  target: "/presse/"
+  kind: page
+  children: []
 
