@@ -5,7 +5,7 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Le No Scroll Day
+- title: NoScrollDay
   target: "/infos-nsd/"
   kind: page
   children: []
