@@ -13,4 +13,8 @@ items:
   target: "/sensibilisation/"
   kind: page
   children: []
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  children: []
 
