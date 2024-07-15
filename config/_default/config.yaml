@@ -7,7 +7,6 @@ params:
   plausible: noscrollday.fr
   posts:
     index:
-      truncate_description: 200 # Set to 0 to disable truncate
       layout: grid # grid | list
       options:
-        hide_category: true
+        categories: false
