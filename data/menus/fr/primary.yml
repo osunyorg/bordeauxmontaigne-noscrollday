@@ -9,7 +9,7 @@ items:
   target: "/infos-nsd/"
   kind: page
   children: []
-- title: S'informer
+- title: Pourquoi réduire les réseaux ?
   target: "/sensibilisation/"
   kind: page
   children: []
