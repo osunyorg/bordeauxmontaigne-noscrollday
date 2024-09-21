@@ -8,11 +8,11 @@ items:
 - title: 'Suivre #NoScrollDay :'
   target: ''
   kind: blank
-  children: []
-- title: Linkedin
-  target: https://www.linkedin.com/company/noscrollday/
-  kind: url
-  children: []
+  children:
+  - title: Linkedin
+    target: https://www.linkedin.com/company/noscrollday/
+    kind: url
+    children: []
 - title: Instagram
   target: https://www.instagram.com/noscrollday/
   kind: url
