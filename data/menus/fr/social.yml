@@ -25,4 +25,8 @@ items:
   target: https://www.tiktok.com/@noscrollday
   kind: url
   children: []
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  children: []
 
