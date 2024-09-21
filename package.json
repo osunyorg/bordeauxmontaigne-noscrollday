@@ -5,6 +5,7 @@
   "author": "osunyorg",
   "license": "MIT",
   "dependencies": {
+    "node": "^22.9.0",
     "osuny": "./themes/osuny"
   },
   "scripts": {
