@@ -1,6 +1,10 @@
 ---
 title: Liens sociaux
 items:
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  children: []
 - title: L'équipe
   target: "/equipe/"
   kind: page
@@ -25,8 +29,4 @@ items:
     target: https://www.tiktok.com/@noscrollday
     kind: url
     children: []
-- title: Ressources
-  target: "/ressources/"
-  kind: page
-  children: []
 
