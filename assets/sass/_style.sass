@@ -5,6 +5,8 @@
 #document-header
     .nav-level-1
         li
+            @include media-breakpoint-down(desktop)
+                text-align: center;
             &:nth-last-child(1)
                 background-color: #78C0E0
                 @include media-breakpoint-up(desktop)
