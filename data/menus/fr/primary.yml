@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Devenir ambassadeur
-  target: https://nsd-form.netlify.app/
+  target: https://nsd-form.netlify.app/ambassadeurs
   kind: url
   children: []
 - title: Je relève le défi
