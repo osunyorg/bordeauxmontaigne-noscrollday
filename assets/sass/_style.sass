@@ -116,6 +116,68 @@
     padding-bottom: 0em
     margin-top: 0px
 
+.defi-custom
+
+    @include media-breakpoint-down(desktop)
+        flex-direction: column
+        background-color: unset
+        gap: 1rem;
+        padding: 0
+        margin-bottom: 5rem
+    
+    display: flex
+    align-items: center
+    font-size: 20px
+    gap: 5rem;
+    margin: 5rem 0
+    background-color: #0B0B0B
+    border-radius: 10px
+    justify-content: space-around
+    padding: 2rem
+    margin-bottom: 2rem
+
+    p
+        max-width: 475px
+
+        span
+            font-weight: 600
+
+
+    .schema
+        display: flex
+        justify-content: center
+        flex-direction: column
+
+        .bottom-schema
+            @include media-breakpoint-down(desktop)
+                font-size: 15px;
+
+            display: flex
+            justify-content: space-between
+
+            p
+                &:nth-child(2)
+                    margin-top: 0 !important
+                    
+
+.cta-custom
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p
+        text-align: center
+        font-weight: 200
+        span
+            font-style: italic
+    
+    a 
+        background-color: #78C0E0
+        color: white
+        padding: 0.5rem 0.75rem
+        border-radius: 5px
+        margin-top: 2rem
+
 .page__home
     .call_to_action
         &:nth-child(1)
