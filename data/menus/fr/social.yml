@@ -5,10 +5,12 @@ items:
   target: "/ressources/"
   kind: page
   children: []
+  file: content/fr/pages/ressources/_index.html
 - title: L'équipe
   target: "/equipe/"
   kind: page
   children: []
+  file: content/fr/persons/_index.html
 - title: 'Suivre #NoScrollDay :'
   target: ''
   kind: blank
