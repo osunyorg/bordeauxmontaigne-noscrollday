@@ -4,22 +4,26 @@ items:
 - title: C'est quoi le NoScrollDay ?
   target: "/infos-nsd/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/infos-nsd"
   file: content/fr/pages/infos-nsd/_index.html
 - title: Pourquoi réduire les réseaux ?
   target: "/sensibilisation/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/sensibilisation"
   file: content/fr/pages/sensibilisation/_index.html
 - title: Devenir ambassadeur
   target: https://nsd-form.netlify.app/ambassadeurs
   kind: url
+  new_tab: true
   children: []
 - title: Je relève le défi
   target: "/le-defi/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/le-defi"
   file: content/fr/pages/le-defi/_index.html
