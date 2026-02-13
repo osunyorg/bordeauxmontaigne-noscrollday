@@ -2,47 +2,67 @@
 title: Liens sociaux
 items:
 - title: Ressources
+  slug: ressources
   target: "/ressources/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/ressources"
   file: content/fr/pages/ressources/_index.html
 - title: L'équipe
+  slug: l-equipe
   target: "/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: 'Suivre #NoScrollDay :'
+  slug: suivre-noscrollday
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Linkedin
+    slug: linkedin
     target: https://www.linkedin.com/company/noscrollday/
     kind: url
     new_tab: true
     children: []
+    descendants_targets: []
   - title: Instagram
+    slug: instagram
     target: https://www.instagram.com/noscrollday/
     kind: url
     new_tab: true
     children: []
+    descendants_targets: []
   - title: Twitter
+    slug: twitter
     target: https://twitter.com/noscrollday
     kind: url
     new_tab: true
     children: []
+    descendants_targets: []
   - title: TikTok
+    slug: tiktok
     target: https://www.tiktok.com/@noscrollday
     kind: url
     new_tab: true
     children: []
+    descendants_targets: []
+  descendants_targets:
+  - https://twitter.com/noscrollday
+  - https://www.instagram.com/noscrollday/
+  - https://www.linkedin.com/company/noscrollday/
+  - https://www.tiktok.com/@noscrollday
 - title: noscrollday@gmail.com
+  slug: noscrollday-gmail-com
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 

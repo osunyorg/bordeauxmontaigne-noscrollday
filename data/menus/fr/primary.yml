@@ -2,29 +2,37 @@
 title: Menu principal
 items:
 - title: C'est quoi le NoScrollDay ?
+  slug: c-est-quoi-le-noscrollday
   target: "/infos-nsd/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/infos-nsd"
   file: content/fr/pages/infos-nsd/_index.html
 - title: Pourquoi réduire les réseaux ?
+  slug: pourquoi-reduire-les-reseaux
   target: "/sensibilisation/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/sensibilisation"
   file: content/fr/pages/sensibilisation/_index.html
 - title: Devenir ambassadeur
+  slug: devenir-ambassadeur
   target: https://nsd-form.netlify.app/ambassadeurs
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Je relève le défi
+  slug: je-releve-le-defi
   target: "/le-defi/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/le-defi"
   file: content/fr/pages/le-defi/_index.html
 
