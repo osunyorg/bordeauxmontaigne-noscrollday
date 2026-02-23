@@ -7,6 +7,11 @@ osuny:
   website:
     id: 5be9fd75-b88a-4fca-b2f5-0723ca16972d
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "noscrollday.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
