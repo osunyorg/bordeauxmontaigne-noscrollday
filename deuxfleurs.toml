@@ -15,26 +15,26 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/equipe/camille-fourcade/offres/index.html"
+from = "/equipe/camille-fourcade/offres/"
 to = "/equipe/camille-fourcade/nos-propositions/"
 
 [[redirects]]
-from = "/nos-propositions/index.html"
+from = "/nos-propositions/"
 to = "/articles/"
 
 [[redirects]]
-from = "/actualites/index.html"
+from = "/actualites/"
 to = "/articles/"
 
 [[redirects]]
-from = "/offres/index.html"
+from = "/offres/"
 to = "/articles/"
 
 [[redirects]]
-from = "/equipe/camille-fourcade/actualites/index.html"
+from = "/equipe/camille-fourcade/actualites/"
 to = "/equipe/camille-fourcade/nos-propositions/"
 
 [[redirects]]
-from = "/je-releve-le-defi/index.html"
+from = "/je-releve-le-defi/"
 to = "/le-defi/"
 
