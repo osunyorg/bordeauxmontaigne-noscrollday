@@ -2,7 +2,6 @@ theme: osuny
 _merge: deep
 
 params:
-  plausible: noscrollday.fr
   posts:
     index:
       layout: grid # grid | list
